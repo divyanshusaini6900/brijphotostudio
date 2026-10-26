@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brij Photo Studio — Logo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#0B1640; --teal:#0E7C86; --teal-2:#3CC6C0; --gold:#F4A62A; --gold-d:#E8890C; --cream:#FFF7EA; }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: 'Mukta', sans-serif; background: #f2ece1; color: var(--ink); padding: 40px 16px 80px; }
+  h1 { font: 800 clamp(28px, 5vw, 44px)/1.1 'Baloo 2', sans-serif; text-align: center; }
+  .sub { text-align: center; margin: 8px 0 36px; color: #5b6380; }
+  .grid { max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+  .tile { border-radius: 22px; padding: 34px 24px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; min-height: 260px; background: var(--cream); box-shadow: 0 10px 30px rgba(11,22,64,.08); }
+  .tile.wide { grid-column: 1 / -1; min-height: 300px; }
+  .tile.dark { background: var(--ink); color: #fff; }
+  .tile.gold { background: var(--gold); }
+  .tile small { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; opacity: .6; margin-top: auto; }
+  .lockup { width: min(100%, 420px); }
+  .mark { width: 150px; }
+  .swatches { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .sw { width: 120px; border-radius: 14px; overflow: hidden; background: #fff; font-size: 13px; }
+  .sw i { display: block; height: 70px; }
+  .sw b, .sw span { display: block; padding: 0 10px; }
+  .sw b { padding-top: 8px; } .sw span { padding-bottom: 10px; opacity: .6; }
+  /* usage mockups */
+  .vcard { width: 300px; aspect-ratio: 1.75; border-radius: 12px; background: #fff; box-shadow: 0 18px 40px rgba(0,0,0,.18); padding: 18px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; }
+  .vcard::after { content: ''; position: absolute; right: -40px; bottom: -40px; width: 140px; height: 140px; border-radius: 50%; background: conic-gradient(#F49D1A, #F7C548, #8CC084, #14A3A1, #0E7C86, #0A4D68, #F49D1A); opacity: .9; }
+  .vcard svg { width: 150px; }
+  .vcard p { font-size: 12px; line-height: 1.5; color: #4a5272; position: relative; z-index: 1; }
+  .board { width: min(100%, 400px); border-radius: 10px; background: linear-gradient(#0B1640, #13215A); padding: 18px 26px; box-shadow: 0 20px 0 -12px #6b4a2a, 0 26px 40px rgba(0,0,0,.25); display: flex; align-items: center; gap: 18px; }
+  .board svg { width: 100%; }
+  .dp { width: 150px; height: 150px; border-radius: 50%; background: var(--cream); display: grid; place-items: center; box-shadow: 0 0 0 6px #25D366; }
+  .dp svg { width: 112px; }
+  .icon { width: 96px; height: 96px; border-radius: 24px; background: var(--ink); display: grid; place-items: center; }
+  .icon svg { width: 78px; }
+  .row { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; justify-content: center; }
+  .fav { width: 32px; height: 32px; }
+</style>
+</head>
+<body>
+  <h1>Brij Photo Studio — Logo</h1>
+  <p class="sub">Camera ka aperture (lens) — jiske blades mor-pankh jaise teal se marigold rang mein ghoomte hain.</p>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="mark" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="59" fill="#0B1640"/>
+        <circle cx="60" cy="60" r="52.5" fill="none" stroke="#F4A62A" stroke-width="1.6"/>
+        <g stroke="#0B1640" stroke-width="1.8" stroke-linejoin="round">
+          <path fill="#F49D1A" d="M74.49 56.12L100.39 82.02A46 46 0 0 1 61.13 105.99Z"/>
+          <path fill="#F7C548" d="M70.61 70.61L61.13 105.99A46 46 0 0 1 20.74 83.97Z"/>
+          <path fill="#8CC084" d="M56.12 74.49L20.74 83.97A46 46 0 0 1 19.61 37.98Z"/>
+          <path fill="#14A3A1" d="M45.51 63.88L19.61 37.98A46 46 0 0 1 58.87 14.01Z"/>
+          <path fill="#0E7C86" d="M49.39 49.39L58.87 14.01A46 46 0 0 1 99.26 36.03Z"/>
+          <path fill="#0A4D68" d="M63.88 45.51L99.26 36.03A46 46 0 0 1 100.39 82.02Z"/>
+        </g>
+        <polygon fill="#060D29" points="63.88 45.51 74.49 56.12 70.61 70.61 56.12 74.49 45.51 63.88 49.39 49.39"/>
+        <circle cx="56.5" cy="55.5" r="3.2" fill="#fff"/>
+        <circle cx="64" cy="64.5" r="1.4" fill="#fff" opacity=".55"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="grid">
+    <div class="tile wide">
+      <svg class="lockup" viewBox="0 0 336 140" role="img" aria-label="Brij Photo Studio logo">
+        <use href="#mark" x="6" y="10" width="120" height="120"/>
+        <text x="145" y="79" style="font:800 84px 'Baloo 2';fill:#0B1640;letter-spacing:4px">BRIJ</text>
+        <text x="149" y="104" style="font:700 17.5px 'Mukta';fill:#0E7C86;letter-spacing:5.2px">PHOTO STUDIO</text>
+        <rect x="149" y="120" width="26" height="2.4" rx="1.2" fill="#F4A62A"/>
+        <text x="183" y="128" style="font:700 19px 'Mukta';fill:#E8890C">जन सेवा केंद्र</text>
+      </svg>
+      <small>Main logo · Light background</small>
+    </div>
+
+    <div class="tile dark">
+      <svg class="lockup" viewBox="0 0 336 140" role="img" aria-label="Brij Photo Studio logo on dark">
+        <use href="#mark" x="6" y="10" width="120" height="120"/>
+        <text x="145" y="79" style="font:800 84px 'Baloo 2';fill:#FFF7EA;letter-spacing:4px">BRIJ</text>
+        <text x="149" y="104" style="font:700 17.5px 'Mukta';fill:#3CC6C0;letter-spacing:5.2px">PHOTO STUDIO</text>
+        <rect x="149" y="120" width="26" height="2.4" rx="1.2" fill="#F4A62A"/>
+        <text x="183" y="128" style="font:700 19px 'Mukta';fill:#F4A62A">जन सेवा केंद्र</text>
+      </svg>
+      <small>Dark background</small>
+    </div>
+
+    <div class="tile">
+      <svg viewBox="0 0 240 250" style="width:210px" role="img" aria-label="Brij Photo Studio vertical logo">
+        <use href="#mark" x="60" y="0" width="120" height="120"/>
+        <text x="120" y="190" text-anchor="middle" style="font:800 66px 'Baloo 2';fill:#0B1640">BRIJ</text>
+        <text x="123" y="214" text-anchor="middle" style="font:700 14.5px 'Mukta';fill:#0E7C86;letter-spacing:6px">PHOTO STUDIO</text>
+        <text x="120" y="242" text-anchor="middle" style="font:700 17px 'Mukta';fill:#E8890C">जन सेवा केंद्र</text>
+      </svg>
+      <small>Vertical · Stamp / Sticker</small>
+    </div>
+
+    <div class="tile gold">
+      <svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><use href="#mark"/></svg>
+      <div class="row">
+        <div class="icon"><svg viewBox="0 0 120 120" aria-hidden="true"><use href="#mark"/></svg></div>
+        <svg class="fav" viewBox="0 0 120 120" aria-hidden="true"><use href="#mark"/></svg>
+      </div>
+      <small>Mark · App icon · Favicon</small>
+    </div>
+
+    <div class="tile">
+      <div class="dp"><svg viewBox="0 0 120 120" aria-hidden="true"><use href="#mark"/></svg></div>
+      <small>WhatsApp / Instagram DP</small>
+    </div>
+
+    <div class="tile wide" style="background:#e9e2d4">
+      <div class="row">
+        <div class="vcard">
+          <svg viewBox="0 0 336 140" aria-hidden="true">
+            <use href="#mark" x="6" y="10" width="120" height="120"/>
+            <text x="145" y="79" style="font:800 84px 'Baloo 2';fill:#0B1640;letter-spacing:4px">BRIJ</text>
+            <text x="149" y="104" style="font:700 17.5px 'Mukta';fill:#0E7C86;letter-spacing:5.2px">PHOTO STUDIO</text>
+            <text x="149" y="130" style="font:700 19px 'Mukta';fill:#E8890C">जन सेवा केंद्र</text>
+          </svg>
+          <p>Photo · Print · Lamination<br>PAN Card · Praman Patra · Bill Payment</p>
+        </div>
+        <div class="board">
+          <svg viewBox="0 0 336 140" aria-hidden="true">
+            <use href="#mark" x="6" y="10" width="120" height="120"/>
+            <text x="145" y="79" style="font:800 84px 'Baloo 2';fill:#FFF7EA;letter-spacing:4px">BRIJ</text>
+            <text x="149" y="104" style="font:700 17.5px 'Mukta';fill:#3CC6C0;letter-spacing:5.2px">PHOTO STUDIO</text>
+            <rect x="149" y="120" width="26" height="2.4" rx="1.2" fill="#F4A62A"/>
+            <text x="183" y="128" style="font:700 19px 'Mukta';fill:#F4A62A">जन सेवा केंद्र</text>
+          </svg>
+        </div>
+      </div>
+      <small>Visiting card · Dukaan ka board</small>
+    </div>
+
+    <div class="tile wide">
+      <div class="swatches">
+        <div class="sw"><i style="background:#0B1640"></i><b>Night Navy</b><span>#0B1640</span></div>
+        <div class="sw"><i style="background:#0E7C86"></i><b>Peacock Teal</b><span>#0E7C86</span></div>
+        <div class="sw"><i style="background:#8CC084"></i><b>Leaf</b><span>#8CC084</span></div>
+        <div class="sw"><i style="background:#F7C548"></i><b>Haldi</b><span>#F7C548</span></div>
+        <div class="sw"><i style="background:#F4A62A"></i><b>Marigold</b><span>#F4A62A</span></div>
+        <div class="sw"><i style="background:#FFF7EA;box-shadow:inset 0 0 0 1px #eee"></i><b>Cream</b><span>#FFF7EA</span></div>
+      </div>
+      <small>Colours · Fonts: Baloo 2 + Mukta</small>
+    </div>
+  </div>
+</body>
+</html>

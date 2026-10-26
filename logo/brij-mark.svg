@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Brij Photo Studio">
+  <!-- Brij Photo Studio mark: a camera aperture whose blades run peacock teal to marigold -->
+  <circle cx="60" cy="60" r="59" fill="#0B1640"/>
+  <circle cx="60" cy="60" r="52.5" fill="none" stroke="#F4A62A" stroke-width="1.6"/>
+  <g stroke="#0B1640" stroke-width="1.8" stroke-linejoin="round">
+    <path fill="#F49D1A" d="M74.49 56.12L100.39 82.02A46 46 0 0 1 61.13 105.99Z"/>
+    <path fill="#F7C548" d="M70.61 70.61L61.13 105.99A46 46 0 0 1 20.74 83.97Z"/>
+    <path fill="#8CC084" d="M56.12 74.49L20.74 83.97A46 46 0 0 1 19.61 37.98Z"/>
+    <path fill="#14A3A1" d="M45.51 63.88L19.61 37.98A46 46 0 0 1 58.87 14.01Z"/>
+    <path fill="#0E7C86" d="M49.39 49.39L58.87 14.01A46 46 0 0 1 99.26 36.03Z"/>
+    <path fill="#0A4D68" d="M63.88 45.51L99.26 36.03A46 46 0 0 1 100.39 82.02Z"/>
+  </g>
+  <polygon fill="#060D29" points="63.88 45.51 74.49 56.12 70.61 70.61 56.12 74.49 45.51 63.88 49.39 49.39"/>
+  <circle cx="56.5" cy="55.5" r="3.2" fill="#fff"/>
+  <circle cx="64" cy="64.5" r="1.4" fill="#fff" opacity=".55"/>
+</svg>

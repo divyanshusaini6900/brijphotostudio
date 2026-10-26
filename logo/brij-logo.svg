@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 140" role="img" aria-label="Brij Photo Studio - Jan Seva Kendra">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&amp;family=Mukta:wght@700&amp;display=swap');
+    .brij { font: 800 84px 'Baloo 2', sans-serif; fill: #0B1640; letter-spacing: 4px; }
+    .studio { font: 700 17.5px 'Mukta', sans-serif; fill: #0E7C86; letter-spacing: 5.2px; }
+    .jsk { font: 700 19px 'Mukta', sans-serif; fill: #E8890C; }
+  </style>
+  <g transform="translate(6 10)">
+    <circle cx="60" cy="60" r="59" fill="#0B1640"/>
+    <circle cx="60" cy="60" r="52.5" fill="none" stroke="#F4A62A" stroke-width="1.6"/>
+    <g stroke="#0B1640" stroke-width="1.8" stroke-linejoin="round">
+      <path fill="#F49D1A" d="M74.49 56.12L100.39 82.02A46 46 0 0 1 61.13 105.99Z"/>
+      <path fill="#F7C548" d="M70.61 70.61L61.13 105.99A46 46 0 0 1 20.74 83.97Z"/>
+      <path fill="#8CC084" d="M56.12 74.49L20.74 83.97A46 46 0 0 1 19.61 37.98Z"/>
+      <path fill="#14A3A1" d="M45.51 63.88L19.61 37.98A46 46 0 0 1 58.87 14.01Z"/>
+      <path fill="#0E7C86" d="M49.39 49.39L58.87 14.01A46 46 0 0 1 99.26 36.03Z"/>
+      <path fill="#0A4D68" d="M63.88 45.51L99.26 36.03A46 46 0 0 1 100.39 82.02Z"/>
+    </g>
+    <polygon fill="#060D29" points="63.88 45.51 74.49 56.12 70.61 70.61 56.12 74.49 45.51 63.88 49.39 49.39"/>
+    <circle cx="56.5" cy="55.5" r="3.2" fill="#fff"/>
+    <circle cx="64" cy="64.5" r="1.4" fill="#fff" opacity=".55"/>
+  </g>
+  <text class="brij" x="145" y="79">BRIJ</text>
+  <text class="studio" x="149" y="104">PHOTO STUDIO</text>
+  <rect x="149" y="120" width="26" height="2.4" rx="1.2" fill="#F4A62A"/>
+  <text class="jsk" x="183" y="128">जन सेवा केंद्र</text>
+</svg>
